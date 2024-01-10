@@ -29,7 +29,7 @@ describe('DOM', () => {
 		}
 	});
 
-	it('should have a number type of card image width and height', () => {
+	it('should have a number type of card image width and height attribute values', () => {
 		const cardImageEl = document.querySelector('.card__image img');
 		const cardImageWidth = cardImageEl.width;
 		const cardImageHeight = cardImageEl.height;
