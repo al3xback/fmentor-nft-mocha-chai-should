@@ -47,9 +47,9 @@ describe('DOM', () => {
 
 	it('should have two children inside of the article element', () => {
 		const articleEl = document.querySelector('article');
-		const articleChildrenElements = articleEl.children;
+		const articleChildrenEls = articleEl.children;
 
-		articleChildrenElements.should.have.lengthOf(2);
+		articleChildrenEls.should.have.lengthOf(2);
 	});
 
 	it('should have an empty alt attribute value of card image element', () => {
